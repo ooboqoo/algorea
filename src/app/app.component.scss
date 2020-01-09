@@ -1,0 +1,16 @@
+.field {
+  border-radius: 0.3em;
+  user-select: none;
+
+  &.non-requested {
+    background-color: gray;
+  }
+
+  &.recommend {
+    background-color: rgb(63, 100, 168);
+  }
+
+  &.mandatory {
+    background-color: red;
+  }
+}
