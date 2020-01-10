@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {PickListModule} from 'primeng/picklist';
+import { PickListModule } from 'primeng/picklist';
+
+import { MultiPickListModule } from '../components/MultiPickList';
 
 import { AppComponent } from './app.component';
 
@@ -12,6 +14,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     PickListModule,
+    MultiPickListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
